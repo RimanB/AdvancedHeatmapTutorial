@@ -8,7 +8,7 @@ library("RColorBrewer")
 
 
 
-test <- read.csv("https://github.com/LeahBriscoe/AdvancedHeatmapTutorial/blob/master/SampleAnnotatedHeatmapDataNorm.csv",row.names = 1)
+test <- read.delim("https://raw.githubusercontent.com/LeahBriscoe/AdvancedHeatmapTutorial/master/SampleAnnotatedHeatmapDataNorm.txt",row.names = 1)
 # control <- test[grep("Control",row.names(test)),]
 # treatment_3weeks <- test[grep("Treatment_3weeks",row.names(test)),]
 # GSM_data <- test[grep("GSM[1][0-2]",row.names(test)),]
